@@ -1,0 +1,41 @@
+/*分页样式*/
+
+
+.page {
+	margin: 3px;
+	padding: 3px;
+	text-align: left;
+}
+.page a {
+	margin: 2px;
+	padding: 2px 5px;
+	color: #036cb4; 
+	border: 1px solid #eee;
+	text-decoration: none
+}
+
+.page a:hover {
+	border: #999 1px solid; 
+	color: #666; 
+}
+
+.page a:active {
+	border: #999 1px solid; 
+	color: #666;
+}
+
+.page .current {
+	border: #036cb4 1px solid;
+	margin: 2px;
+	padding: 2px 5px; 
+	font-weight: bold;
+	color: #fff; 
+	background: #036cb4;
+}
+
+.page .disabled {
+	border: #999 1px solid; 
+	margin: 2px;
+	padding: 2px 5px; 
+	color: #666; 
+}

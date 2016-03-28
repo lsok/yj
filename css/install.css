@@ -1,0 +1,15 @@
+body {background: #D0DCE0;color: #333;font-size:16px;}
+
+h1 {color:#666;border-bottom:1px solid #333;}
+
+#wrap {background: #f0f0f0;width:760px;margin:30px auto;padding:20px 30px;}
+
+.err {color: #c30000;margin-left:16px;padding:0;}
+
+form {font-weight:bold;}
+
+input {width:160px;}
+
+input#submit {width:120px;height:38px;font-size:16px;font-weight:600px;margin:10px 0 10px 0;}
+
+input.success {width:120px;height:38px;font-size:16px;font-weight:600px;margin:10px 0 10px 0;}

@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteRule ^index.html$ index.php
+RewriteRule ^company.html$ company.php
+RewriteRule ^news-([0-9]*).html$ news.php?catid=$1
+RewriteRule ^news-([0-9]*)-([0-9]*).html$ news.php?page=$2&catid=$1
+RewriteRule ^news-([0-9]*)-search-(.+)-([0-9]*).html$ news.php?page=$3&catid=$1&search=$2
+RewriteRule ^news-view-([0-9]*).html$ news_view.php?id=$1
+RewriteRule ^product.html$ product.php
+RewriteRule ^product-([0-9]*).html$ product.php?page=$1
+RewriteRule ^product-view-([0-9]*).html$ product_view.php?id=$1
+RewriteRule ^product-([0-9]*)-([0-9]*).html$ product.php?catid=$1&page=$2
+RewriteRule ^product-search-(.+)-([0-9]*).html$ product.php?page=$2&search=$1
+RewriteRule ^picture-([0-9]*).html$ picture.php?catid=$1
+RewriteRule ^picture-([0-9]*)-([0-9]*).html$ picture.php?page=$2&catid=$1
+RewriteRule ^picture-view-([0-9]*).html$ picture_view.php?id=$1
+RewriteRule ^feedback.html$ feedback.php
+RewriteRule ^contact.html$ contact.php
+

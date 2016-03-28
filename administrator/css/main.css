@@ -1,0 +1,139 @@
+/*administrator CSS*/
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#fff;
+}
+
+.shortcut {
+	display:inline;
+	width:90%;
+	float:left;
+	list-style:none;
+	margin:30px 30px;
+}
+
+.shortcut li {
+	float:left;
+	height:84px;
+	text-align:center;
+	font-size:13px;
+	margin-right:35px;
+	margin-bottom:40px;
+}
+
+.shortcut li a {
+	display:block;
+	width:56px;
+	padding-top:68px;
+	color:#333;
+	text-decoration:none;
+}
+
+.shortcut a.add_art:link,.shortcut a.add_art:visited {
+	background:url(../images/write_art.gif) no-repeat 0 0;
+}
+
+.shortcut a.add_art:hover {
+	background:url(../images/write_art.gif) no-repeat -56px 0;
+}
+
+.shortcut a.man_art:link,.shortcut a.man_art:visited {
+	background:url(../images/man_art.gif) no-repeat 0 0;
+}
+
+.shortcut a.man_art:hover {
+	background:url(../images/man_art.gif) no-repeat -56px 0;
+}
+
+.shortcut a.add_pro:link,.shortcut a.add_pro:visited {
+	background:url(../images/add_pro.gif) no-repeat 0 0;
+}
+
+.shortcut a.add_pro:hover {
+	background:url(../images/add_pro.gif) no-repeat -56px 0;
+}
+
+.shortcut a.man_pro:link,.shortcut a.man_pro:visited {
+	background:url(../images/man_pro.gif) no-repeat 0 0;
+}
+
+.shortcut a.man_pro:hover {
+	background:url(../images/man_pro.gif) no-repeat -56px 0;
+}
+
+.shortcut a.man_pic:link,.shortcut a.man_pic:visited {
+	background:url(../images/man_pic.gif) no-repeat 0 0;
+}
+
+.shortcut a.man_pic:hover {
+	background:url(../images/man_pic.gif) no-repeat -56px 0;
+}
+
+.shortcut a.man_vid:link,.shortcut a.man_vid:visited {
+	background:url(../images/man_vid.gif) no-repeat 0 0;
+}
+
+.shortcut a.man_vid:hover {
+	background:url(../images/man_vid.gif) no-repeat -56px 0;
+}
+
+.shortcut a.man_feed:link,.shortcut a.man_feed:visited {
+	background:url(../images/man_feed.gif) no-repeat 0 0;
+}
+
+.shortcut a.man_feed:hover {
+	background:url(../images/man_feed.gif) no-repeat -56px 0;
+}
+
+.shortcut a.man_faq:link,.shortcut a.man_faq:visited {
+	background:url(../images/man_faq.gif) no-repeat 0 0;
+}
+
+.shortcut a.man_faq:hover {
+	background:url(../images/man_faq.gif) no-repeat -56px 0;
+}
+
+.shortcut a.man_date:link,.shortcut a.man_date:visited {
+	background:url(../images/man_date.gif) no-repeat 0 0;
+}
+
+.shortcut a.man_date:hover {
+	background:url(../images/man_date.gif) no-repeat -56px 0;
+}
+
+.shortcut a.man_pin:link,.shortcut a.man_pin:visited {
+	background:url(../images/man_pin.gif) no-repeat 0 0;
+}
+
+.shortcut a.man_pin:hover {
+	background:url(../images/man_pin.gif) no-repeat -56px 0;
+}
+
+.shortcut a.man_dc:link,.shortcut a.man_dc:visited {
+	background:url(../images/man_dc.gif) no-repeat 0 0;
+}
+
+.shortcut a.man_dc:hover {
+	background:url(../images/man_dc.gif) no-repeat -56px 0;
+}
+
+
+.shortcut a.man_page:link,.shortcut a.man_page:visited {
+	background:url(../images/man_page.gif) no-repeat 0 0;
+}
+
+.shortcut a.man_page:hover {
+	background:url(../images/man_page.gif) no-repeat -56px 0;
+}
+
+.shortcut a.man_link:link,.shortcut a.man_link:visited {
+	background:url(../images/man_link.gif) no-repeat 0 0;
+}
+
+.shortcut a.man_link:hover {
+	background:url(../images/man_link.gif) no-repeat -56px 0;
+}

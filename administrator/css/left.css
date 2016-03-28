@@ -1,0 +1,93 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#242424;
+	color:#fff;
+	font-size:13px;
+}
+				
+a {color:#fff;}
+
+#sidebar {
+	width:200px;
+}
+
+#logo {
+	width:170px;
+	height:62px;
+	margin:15px auto;
+}
+
+#view_out{
+	margin-left:16px;
+}
+
+#view_out a {
+	text-decoration:none;
+}
+
+#view_out a.viewsite {
+	background:url(../images/viewsite.png) no-repeat 0 -2px;
+	padding-left:20px;
+} 
+
+#view_out a.logout {
+	background:url(../images/logout.png) no-repeat 0 -1px;
+	padding-left:20px;
+	margin-left:0px !important;
+	margin-left:6px;
+} 
+
+*+html #view_out a.logout {
+	margin-left:6px !important;
+}
+
+div.sdmenu {
+	width: 165px;
+	font-size: 13px;
+	margin:25px 0 0 16px;
+	background: url(../images/bottom.gif) no-repeat  right bottom;
+	color: #fff;
+}
+div.sdmenu div {
+	background: url(../images/title.gif) repeat-x;
+	overflow: hidden;
+}
+
+div.sdmenu div.collapsed {
+	height: 32px;
+}
+
+div.sdmenu div span {
+	display: block;
+	height:25px;
+	padding: 8px 25px 0 25px;
+	font-weight: bold;
+	color: white;
+	background: url(../images/expanded.gif) no-repeat 10px center;
+	cursor: default;
+}
+div.sdmenu div.collapsed span {
+	background-image: url(../images/collapsed.gif);
+}
+div.sdmenu div a {
+	padding: 5px 10px 5px 25px;
+	background: #4c8d11;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	color: #fff;
+	text-decoration: none;
+}
+
+div.sdmenu div a.last {
+	border:none;
+}
+
+div.sdmenu div a:hover {
+	background : #4c8d11 url(../images/linkarrow.gif) no-repeat right center;
+	color: #fff;
+}

@@ -1,0 +1,366 @@
+/*administrator CSS*/
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#fff;
+	font-size:13px;
+	color:#222;
+}
+
+#wrap {
+	margin:20px 0 20px 20px;
+}
+
+.clear {
+	clear:both;
+	margin:0;
+	_margin-bottom:-15px;
+	padding:0;
+	height:0;
+}
+
+h1 {
+	height:33px;
+	line-height:33px;
+	padding-left:38px;
+	font-size:22px;
+	color:#666;
+	margin-bottom:20px;
+	background:url(../images/h_bg.gif) no-repeat 0 0;
+}
+
+h1 a {
+	color:#21759b;
+	font-size:13px;
+	font-weight:normal;
+	margin-left:10px;
+	background:#f1f1f1;
+	padding:2px 8px;
+	text-decoration:none;
+}
+
+h1 a:hover {
+	color:#D54E21;
+}
+
+h1 a.alert {
+	color:#21759b;
+	font-size:13px;
+	font-weight:normal;
+	margin-left:10px;
+	background:#f4dcd8;
+	padding:2px 8px;
+	text-decoration:none;
+}
+
+h1 a.alert:hover {
+	color:#D54E21;
+}
+
+div.width-90 {
+	width:90%;
+	margin:10px 0 30px 0;
+	background:#ffffff;
+}
+
+fieldset.adminform {
+	width:100%;
+	border:1px solid #cccccc;
+}
+
+fieldset.adminform legend {
+	font-size:14px;
+	font-weight:bold;
+}
+
+ul.adminformlist {
+    list-style: none;
+	 padding:15px 0 !important;
+	 padding:10px 0;
+}
+
+ul.adminformlist li {
+
+}
+
+fieldset.adminform label {
+    clear: left;
+    display: block;
+    float: left;
+    margin: 5px 0 0 3px !important;
+	 margin: 5px 0 0 4px;
+	 width: 20%;
+}
+
+*+html fieldset.adminform label {
+	margin: 5px 0 0 7px !important;
+}
+
+fieldset.adminform input, fieldset.adminform textarea, fieldset.adminform select {
+    float: left;
+    margin: 5px 5px 5px 0;
+}
+
+.formtable {
+	width:90%;
+}
+
+.formtable td {
+	padding:10px 0 10px 0;
+}
+
+.formtable td.label {
+   width:15%;
+}
+
+.textinput {
+	width:50%;
+	height:20px;
+	line-height:20px;
+	vertical-align:middle;
+	padding-left:3px;
+}
+
+textarea {
+	width:50%;
+	font-size:13px;
+	padding-left:3px;
+	padding-top:3px;
+}
+
+.button {
+	position:relative;
+	top:1px !important;
+	top:2px;
+	height:26px;
+	line-height:22px;/*针对IE*/
+	padding:0 3px !important;
+	padding:0;
+}
+
+*+html .button {
+	top:2px !important;
+	padding:0 !important;
+}
+
+input.radio {
+	position:relative;
+	top:3px !important;
+	top:0px;
+	margin-left:8px !important;
+	margin-right:0px !important;
+	margin-right:-6px;
+}
+
+*+html input.radio {
+	top:0px !important;
+	margin-left:5px !important;
+	margin-right:-6px !important;
+}
+
+.radio_label {
+	margin:0 10px 0 0;
+}
+
+.radio_img {
+	position:relative;
+	top: 4px !important;
+	left:6px !important;
+	top:2px;
+	left:2px;
+}
+
+*+html .radio_img {
+	left:0 !important;
+}
+
+.optional {
+	margin-left:5px;
+ 	margin-right:15px;
+}
+
+/* 表单提交按钮中的文字垂直居中 */
+input::-moz-focus-inner{ border: 0;padding: 0;}/*针对Firefox*/
+.submit {
+	height:26px;
+	line-height:22px;/*针对IE*/
+	width:100px;
+	color:#fff;
+	cursor:pointer;
+	background:#4c8d11;
+	border:1px solid #4c8d11;
+}
+
+.formtable td span {
+	color:#666;
+	margin-left:6px;
+}
+
+.formtable .td_title {
+	font-size:14px;
+	color:#000;
+	background:url(../images/cate_label_img.gif) no-repeat 0px 10px;
+	padding-left:18px;
+}
+
+.select_form, .search_form {
+	float:left;
+	margin-top:10px;
+	margin-right:20px;
+}
+
+.status_form {
+	float:left;
+	margin-top:14px;
+	margin-right:20px;
+}
+
+.datatable {
+	width:98%;
+	text-align:center;
+	margin-top: 10px;
+	border: 1px solid #e7e7e7;
+	border-bottom: none;
+}
+
+.datatable th {
+	color:#000;
+	padding:10px 0 10px 0;
+	background:url(../images/bg_th.png) repeat-x 0 0;
+	border-right: 1px solid #e7e7e7;
+	white-space:nowrap;/*强制单元格内不换行*/
+}
+
+.datatable td {
+	padding:8px 6px 8px 6px;
+	color:#333;
+	border-bottom: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+}
+
+.datatable td.align_left {
+	text-align: left;
+}
+
+.datatable .odd {
+	background:#fff;
+}
+
+.datatable .even {
+	background:#f3f3f3;
+}
+
+.datatable a {
+	color:#333;
+	text-decoration:none;
+}
+
+.datatable a:hover {
+	text-decoration:underline;
+}
+
+.datatable a.a_man {
+	color:#333;
+	text-decoration:none;
+}
+
+.datatable a.a_man:hover {
+	color:green;
+}
+
+.datatable img {
+	border: none;
+}
+
+.chkall {
+	margin-right:2px !important;
+	margin-right:0;
+	vertical-align:-2px !important;
+	vertical-align:0px;
+}
+
+*+html .chkall {
+	margin-right:0 !important;
+	vertical-align:-1px !important;
+}
+
+.web_page {
+	float:left;
+	margin:20px auto 0 0;
+	padding-bottom:20px;
+}
+
+.web_page a:link,.web_page a:visited {
+	color:#333;
+}
+
+.tip {
+	margin-top:15px;
+	color:#333;
+}
+
+.tip img {
+	vertical-align: -1px;
+	margin-right:6px;
+}
+
+.tip_cates {
+	margin-top:15px;
+	margin-left:-5px;
+	margin-bottom:30px;
+	color:#666;
+	font-weight:bold;
+}
+
+.tip_cates img {
+	vertical-align: -7px;
+	margin-right:6px;
+}
+
+/*用于表单域右侧的提示文本*/
+.tips {}
+.tips img {position:relative;top:5px;left:0px;border:none;}
+
+.cates_form {
+	padding-left:6px;
+}
+
+fieldset {
+	width:600px;
+	padding-left:8px;
+}
+
+legend {
+     color:#333;
+}
+
+.cates_form label {
+	padding-left:18px;
+	background: url(../images/cate_label_img.gif) no-repeat 0 0px;
+}
+
+.cates {
+	margin-top:20px;
+	margin-left:-8px;
+	margin-bottom:25px;
+}
+
+.cates_ul {
+	margin-left:30px;
+	line-height:25px;
+	font-size:13px;
+}
+
+.cates_ul a {
+	font-size:13px;
+	color:#4c8d11;
+	margin:0 3px;
+}
+
+.empty {
+	padding-left:11px;
+	font-size:12px;
+}

@@ -1,0 +1,23 @@
+/*表单文本框右侧悬停文字提示*/
+
+#hintbox{ /*CSS for pop up hint box */
+position:absolute;
+top: 0;
+font-size:12px;
+background-color: #D9F1FB;
+width: 150px; /*默认提示框宽度 可在调用参数中根据每个提示内容修改*/ 
+height:20px;
+line-height:20px;
+border:1px solid #7FCDEE;
+z-index:100;
+visibility: hidden;
+padding-left:3px;
+vertical-align:middle;
+overflow:hidden;
+}
+
+.hintanchor img {
+border:none;
+position:relative;
+top:5px;
+left:3px;

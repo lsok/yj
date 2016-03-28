@@ -1,0 +1,145 @@
+/*留言列表样式   后台与前台留言显示均基于此样式表*/
+
+* {
+	margin:0;
+	padding:0;
+}
+
+.guest {
+	width:98%;
+	margin-top: 10px;
+	margin-bottom:40px;
+	border: 1px solid #e7e7e7;
+}
+
+.guest .title {
+	height:35px;
+	background:url(../images/bg_th.png) repeat-x 0 0;
+}
+
+.guest .title h1 {
+	background:url(../images/guest_h1.gif) no-repeat 9px 6px;
+	margin:0;
+	padding-left:35px;
+	height:35px;
+	line-height:35px;
+	color:#000;
+	font-size:14px;
+	font-weight:normal;
+}
+
+.guest .title h1 span {
+	float:right;
+	margin-right:20px;
+	_margin-top:-34px; /* only for IE6 */
+	background:url(../images/time.gif) no-repeat 0px 6px;
+	padding-left:28px;
+}
+
+.guest .content {
+	margin:15px 15px 0px 11px;
+	min-height:30px;
+	line-height:1.5;
+	background:url(../images/say.gif) no-repeat 0px 1px;
+	padding-left:25px;
+}
+
+.guest ul {
+	float:left;
+	display:inline;
+	list-style:none;
+	margin-top:30px;
+	margin-left:11px;
+	margin-bottom:20px;
+}
+
+.guest li {
+	float:left;
+	margin-right:35px;
+	height:22px;
+	line-height:22px;
+}
+
+.guest li.user {
+	background:url(../images/user.gif) no-repeat 0px 0px;
+	padding-left:28px;
+}
+
+.guest li.email {
+	background:url(../images/email.gif) no-repeat 0px 3px;
+	padding-left:28px;
+}
+
+.guest li.phone {
+	background:url(../images/phone.gif) no-repeat 0px 0px;
+	padding-left:25px;
+}
+
+.guest .reply {
+	clear:both;
+	border:1px solid #e6e6e6;
+	background:#e6e6e6;
+}
+
+.guest .reply div {
+	line-height:20px;
+	margin:12px 15px 12px 12px;
+	padding-left:28px;
+	background:url(../images/reply.gif) no-repeat 0px 0px;
+}
+
+.guest .noreply {
+	clear:both;
+	border:1px solid #e6e6e6;
+	background:#f4dcd8;
+}
+
+.guest .noreply div {
+	line-height:20px;
+	margin:12px 15px 12px 12px;
+	padding-left:26px;
+	background:url(../images/no_reply.gif) no-repeat 0px 1px;
+}
+
+.guest .noreply div span {
+	margin-left:50px;
+}
+
+.guest a.green {
+	text-decoration:none;
+	color:green;
+	margin-left:10px;
+}
+
+.guest a.green:hover {
+	text-decoration:underline;
+}
+
+.guest a.red {
+	text-decoration:none;
+	color:#cc0000;
+	margin-left:10px;
+}
+
+.guest a.red:hover {
+	text-decoration:underline;
+}
+
+.guest .reply .write_reply {
+	margin:12px 15px 12px 12px;
+	padding-left:28px;
+	background:url(../images/write.gif) no-repeat 0px 0px;
+}
+
+.guest .reply .write_reply p {
+	margin-bottom:8px;
+}
+
+.guest_page {
+	margin:-10px auto 25px auto;
+	text-align:center;
+}
+
+.guest_page a {
+	color:#333;
+}
