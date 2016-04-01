@@ -1,0 +1,43 @@
+/* CSS 通用基础样式 */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:1.5;
+	vertical-align: baseline;
+	text-align:left;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ul {
+	list-style:none;
+}
+
+p {
+	text-indent:2em;
+	text-align:justify;
+	text-justify:inter-ideograph;
+}
+
+img {
+	border:1px solid #cccccc;
+}
+
+a:link,a:visited {
+	text-decoration:none;
+}
+
+.clear {
+	clear:both;
+}
+
+
