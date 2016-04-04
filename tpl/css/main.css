@@ -32,10 +32,14 @@
 	margin-right: 15px;
 }
 
+.top_res_log_span a {
+	color: #fff;
+	text-decoration: none;
+}
+
 .wrap {
 	width: 980px;
 	margin: 0 auto;
-	background: #ccc;
 }
 
 .header {
@@ -50,11 +54,35 @@
 .logo {
 	float: left;
 	width: 150px;
+	height: 85px;
+	margin: 20px 0 0 20px;
+	/*border: 1px solid red;*/
 }
 
 .header_search_box {
+	margin-left: 80px;
 	float: left;
-	width: 350px;
+	width: 430px;
+}
+
+.header_search_box .keyinput {
+	width: 330px;
+	height: 36px;
+	padding-left: 5px;
+	font-size: 14px;
+	border: 1px solid #888;
+}
+
+.header_search_box .submit {
+	width: 85px;
+	height: 38px;
+	background: #60af00;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	border: 1px solid #60af00;
+	cursor: pointer;
 }
 
 .post {
@@ -81,14 +109,60 @@
 	background: #fd6000;
 }
 
-
-
-
-
-
-
-
-
 .nav {
 	height: 35px;
+	width: 980px;
+}
+
+.nav ul {
+	width: 980px;
+	float: left;
+	background: #60af00;
+}
+
+.nav ul li {
+	float: left;
+	width: 85px;
+	height: 35px;
+	line-height: 35px;
+	background: #60af00;
+}
+
+.nav ul li a {
+	display: block;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+}
+
+.nav ul li a:hover {
+	background: #50931e;
+	font-weight: bold;
+}
+
+.company_list {
+	width: 980px;
+	margin-top: 10px;
+	float: left;
+}
+
+.company_list li {
+	width: 320px;
+	float: left;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+
+.company_list li a {
+	display: block;
+	font-size: 14px;
+	color: #333;
+	background: #eee;
+}
+
+.company_list li.last {
+	padding-right: 0;
 }
